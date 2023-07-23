@@ -71,8 +71,8 @@ const About = () => {
             <div className="col-12 resume-btn-container">
               <a href="img/KevinsResume231.jpg" className="btn btn-resume" target="_blank">
                 <span>
-                  <i className="fa fa-download" />
-                  download my cv
+                  <i className="fa fa-file-text" />
+                  View my CV
                 </span>
               </a>
             </div>

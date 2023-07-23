@@ -91,7 +91,7 @@ const Contact = () => {
               </ul>
               {/* Social Media Profiles Starts */}
               <div className="social">
-                <h6 className="font-weight-600 uppercase">Social Profiles</h6>
+                <h6 className="font-weight-600 uppercase">LinkedIn</h6>
                 <ul className="list-inline social social-intro text-center p-none">
                   <li className="facebook">
                     <a href="https://www.linkedin.com/in/kedward3" target="_blank" rel="noreferrer">
