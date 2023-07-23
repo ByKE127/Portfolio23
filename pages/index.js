@@ -1,23 +1,31 @@
-import Head from 'next/head'
-import Header from '@components/Header'
-import Footer from '@components/Footer'
-
-export default function Home() {
+import dynamic from "next/dynamic";
+import About from "../src/components/About";
+import Blog from "../src/components/Blog";
+import Contact from "../src/components/Contact";
+import Home from "../src/components/Home";
+import Layouts from "../src/layouts/Layouts";
+const Work = dynamic(() => import("../src/components/Work"), {
+  ssr: false,
+});
+const Index = () => {
   return (
-    <div className="container">
-      <Head>
-        <title>Next.js Starter!</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
-      <main>
-        <Header title="Welcome to my app!" />
-        <p className="description">
-          Get started by editing <code>pages/index.js</code>
-        </p>
-      </main>
-
-      <Footer />
-    </div>
-  )
-}
+    <Layouts bodyCls={"dark fullscreendark"}>
+      {/* Back To Home Ends [ONLY MOBILE] */}
+      {/* Home Section Starts */}
+      <Home />
+      {/* Home Section Ends */}
+      {/* About Section Starts */}
+      <About />
+      {/* About Section Ends */}
+      {/* Portfolio Section Starts */}
+      <Work />
+      {/* Portfolio Section Ends */}
+      {/* Contact Section Starts */}
+      <Contact />
+      {/* Contact Section Ends */}
+      {/* Blog Section Starts */}
+      <Blog />
+    </Layouts>
+  );
+};
+export default Index;

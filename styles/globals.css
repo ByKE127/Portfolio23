@@ -1,35 +1,37 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell,
-    Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+@import "./modal.css";
+div#__next {
+  position: relative;
+  height: 100%;
+}
+#main > section {
+  transform: translate3d(-100%, 0, 0) !important;
+}
+#main > section.active {
+  transform: translate3d(0%, 0, 0) !important;
+}
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
 }
 
-* {
-  box-sizing: border-box;
+span.sc-bdVaJa.bBePZj {
+  display: none;
 }
 
-main {
-  padding: 5rem 0;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+@media (max-width: 767px) {
+  .close-project.is-visible {
+    display: block;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .back-mobile.close-project {
+    line-height: 55px;
+  }
 }
 
-code {
-  background: #fafafa;
-  border-radius: 5px;
-  padding: 0.75rem;
-  font-family: Menlo, Monaco, Lucida Console, Courier New, monospace;
+.empty_notice {
+  color: red;
 }
-
-.container {
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+.returnmessage {
+  color: green;
 }
