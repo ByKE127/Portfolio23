@@ -1291,7 +1291,7 @@ var jsx_runtime_ = __webpack_require__(997);
 // EXTERNAL MODULE: external "react"
 var external_react_ = __webpack_require__(6689);
 ;// CONCATENATED MODULE: ./public/img/bg-video-poster.jpg
-/* harmony default export */ const bg_video_poster = ({"src":"/_next/static/media/bg-video-poster.d16fbc23.jpg","height":1080,"width":1920,"blurDataURL":"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoKCgoKCgsMDAsPEA4QDxYUExMUFiIYGhgaGCIzICUgICUgMy03LCksNy1RQDg4QFFeT0pPXnFlZXGPiI+7u/sBCgoKCgoKCwwMCw8QDhAPFhQTExQWIhgaGBoYIjMgJSAgJSAzLTcsKSw3LVFAODhAUV5PSk9ecWVlcY+Ij7u7+//CABEIAAUACAMBIgACEQEDEQH/xAAnAAEBAAAAAAAAAAAAAAAAAAAABgEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEAMQAAAArgf/xAAYEAACAwAAAAAAAAAAAAAAAAAAARESMv/aAAgBAQABPwCrnbP/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oACAECAQE/AH//xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oACAEDAQE/AH//2Q==","blurWidth":8,"blurHeight":5});
+/* harmony default export */ const bg_video_poster = ({"src":"/_next/static/media/bg-video-poster.d16fbc23.jpg","height":1080,"width":1920,"blurDataURL":"data:image/jpeg;base64,/9j/2wBDAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4+JS5ESUM8SDc9Pjv/2wBDAQoLCw4NDhwQEBw7KCIoOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozv/wAARCAAFAAgDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAb/xAAbEAACAwADAAAAAAAAAAAAAAAAEQECAxQxkf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwCrjG8WfI0mG0q+dAAD/9k=","blurWidth":8,"blurHeight":5});
 // EXTERNAL MODULE: ./src/context/navContext.js
 var navContext = __webpack_require__(6333);
 // EXTERNAL MODULE: external "react-moving-text"
