@@ -17,6 +17,7 @@ const workData = [
     duration: "3 MONTHS",
     technologies: ["SHOPIFY, " ,"HTML, " , "CSS, ", "JAVASCRIPT "],
     budget: "1550 USD",
+    href: 'https://newjerseysplug.com/',
   },
   {
     img: "img/KroteinBar.jpg",

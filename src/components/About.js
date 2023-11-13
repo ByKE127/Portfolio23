@@ -69,7 +69,7 @@ const About = () => {
               </ul>
             </div>
             <div className="col-12 resume-btn-container">
-              <a href="img/KevinsResume231.jpg" className="btn btn-resume" target="_blank">
+              <a href="img/Kevin1023Resume11.jpg" className="btn btn-resume" target="_blank">
                 <span>
                   <i className="fa fa-file-text" />
                   View my CV
@@ -117,6 +117,7 @@ const About = () => {
 • Aid the design of wireframes for email/web pages in Figma.<br></br>
 • Partner with marketing to test conversion rates using the Google Suite.<br></br>
 • Troubleshoot bugs across applications and on site.<br></br>
+• Strictly follow American Eagle/Todd Snyder WCAG Guidelines.<br></br>
                       </p>
                     </div>
                   </div>
@@ -142,8 +143,7 @@ const About = () => {
                       <p>
 • Designed new pages seamlessly into the front-end and back-end of their website using HTML, CSS, and Javascript.<br></br>
 • Created newsletter articles to send out to customers.<br></br>
-• Worked closely with various teams to code new ideas for testing.<br></br>
-• Writes descriptions for products to sell to a specific audience.<br></br>
+• Monitored engagement rates using key KPIs.<br></br>
 
 
                       </p>
@@ -180,6 +180,60 @@ const About = () => {
                   </div>
                 </div>
                 {/* Item Ends */}
+                {/* Item Starts */}
+                <div className="item">
+                  <span className="bullet" />
+                  <div className="card">
+                    <div className="card-header">
+                      <span className="year">
+                        <i className="fa fa-calendar" />
+                        <i className="fa fa-caret-right" />
+                        1/2020 - 3/2020
+                      </span>
+                      <span className="d-block font-weight-400 uppercase">
+                        Digital Media Coordinator (Internship)
+                        <span className="separator" />
+                        <span className="font-weight-700">AboveMAX Basketball</span>
+                      </span>
+                    </div>
+                    <div className="card-body">
+                      <p>
+• Created content and managed all social media platforms for the company.<br></br>
+• Monitored analytical data and engagement rates.<br></br>
+• Used HootSuite to schedule post across social media platforms.<br></br>
+• Managed the WordPress eCommerce store and scheduling for team practices.<br></br>
+
+
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                {/* Item Ends */}
+                {/* Item Starts */}
+                <div className="item">
+                  <span className="bullet" />
+                  <div className="card">
+                    <div className="card-header">
+                      <span className="year">
+                        <i className="fa fa-calendar" />
+                        <i className="fa fa-caret-right" />
+                        9/2019 - 12/2019
+                      </span>
+                      <span className="d-block font-weight-400 uppercase">
+                        Communications/Marketing (Internship)
+                        <span className="separator" />
+                        <span className="font-weight-700">Ramapo College Athletics</span>
+                      </span>
+                    </div>
+                    <div className="card-body">
+                      <p>
+                        • Designed and monitored social media posts for the college’s athletics program.<br></br>
+                        • Worked effectively with team members to drive traffic to the 
+sporting events.<br></br>
+                      </p>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
             {/* Experience Ends */}
