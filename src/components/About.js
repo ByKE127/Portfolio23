@@ -69,7 +69,7 @@ const About = () => {
               </ul>
             </div>
             <div className="col-12 resume-btn-container">
-              <a href="img/Kevin1023Resume11.jpg" className="btn btn-resume" target="_blank">
+              <a href="img/KevinEdwardsResume111323.jpg" className="btn btn-resume" target="_blank">
                 <span>
                   <i className="fa fa-file-text" />
                   View my CV
