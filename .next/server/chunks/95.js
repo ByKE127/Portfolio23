@@ -148,7 +148,7 @@ const About = ()=>{
                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                                     className: "col-12 resume-btn-container",
                                     children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
-                                        href: "img/Kevin1023Resume11.jpg",
+                                        href: "img/KevinEdwardsResume111723.jpg",
                                         className: "btn btn-resume",
                                         target: "_blank",
                                         children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("span", {
