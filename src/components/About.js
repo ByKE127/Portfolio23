@@ -21,7 +21,7 @@ const About = () => {
             <div className="image-container">
               <img
                 className="img-fluid d-block"
-                src="img/KevBlkonBlk1x1.jpg"
+                src="img/KevinBlkonBlkNoEarring.jpg"
                 alt=""
               />
             </div>
