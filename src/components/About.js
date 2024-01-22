@@ -26,8 +26,9 @@ const About = () => {
               />
             </div>
             <p className="d-block d-md-none">
-              {`I'm`} a motivated web developer who is enthusiastic and diligent with a strong work ethic. 
-              Previous professional work experience and academic training in design and marketing.
+              {`I'm`} a motivated web developer with freelance 
+              and professional experience improving online businesses by driving traffic 
+              and sales through design and marketing.
             </p>
           </div>
           <div className="row col-xl-6 col-lg-6 col-md-12">
